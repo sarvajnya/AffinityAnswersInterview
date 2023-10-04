@@ -1,4 +1,10 @@
 # AffinityAnswersInterview
+Question 2:
+Steps
+1. Install mysql client and connect to the "Rfam" database.
+2. Open "sql solutions.txt" from repo and paste solutions.
+
+
 Question 3:
 Steps
 1. Install curl :
