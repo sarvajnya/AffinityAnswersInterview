@@ -1,0 +1,12 @@
+1.
+SELECT COUNT(*) AS number_of_tigers FROM taxonomy WHERE species LIKE '%Tiger%';
+SELECT ncbi_id FROM taxonomy WHERE species LIKE '%Panthera tigris sumatrae%';
+
+2.
+SELECT column_name FROM information_schema.key_column_usage WHERE referenced_table_name IS NOT NULL AND table_schema = 'Rfam';
+
+3.
+SELECT t.species AS rice_type  FROM   rfamseq AS rf INNER JOIN   taxonomy AS t ON   rf.ncbi_id = t.ncbi_id ORDER BY rf.length DESC LIMIT 1 OFFSET 0;
+
+4.
+SELECT f.rfam_id, f.rfam_acc, rf.length FROM full_region fr, rfamseq rf, taxonomy tx, family f WHERE rf.ncbi_id = tx.ncbi_id AND f.rfam_acc = fr.rfam_acc AND fr.rfamseq_acc = rf.rfamseq_acc and rf.length>1000000 LIMIT 15 OFFSET 120;
