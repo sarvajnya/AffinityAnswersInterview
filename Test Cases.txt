@@ -1,0 +1,8 @@
+Sample Test Cases to consider:
+
+A correct address with a correct PIN code.
+A correct address with a correct PIN code, but with a different format.
+A correct address with no PIN code.
+No address but PIN code.
+An incorrect address with no PIN code.
+An incorrect address with an incorrect PIN code.
