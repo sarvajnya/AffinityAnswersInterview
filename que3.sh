@@ -7,6 +7,9 @@ input_url="https://www.amfiindia.com/spages/NAVAll.txt"
 output_file="output_data.tsv"
 
 # Logic
-curl -s "$input_url" | awk -F';' '{print $4 "\t" $5}' > "$output_file"
+if curl -s "$input_url" | awk -F';' '{print $4 "\t" $5}' > "$output_file"; then
+    echo "Successfull"
+else
+    echo "Unsuccessfull"
+fi
 
-echo "Successfull"
