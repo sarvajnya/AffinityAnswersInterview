@@ -1,4 +1,4 @@
 Here, the 'awk' command is configured to use semicolon (;) as the field separator with awk -F';'. 
 This means it splits each line into fields based on semicolon. 
 If a line doesn't contain the semicolon, it results in empty fields, leading to blank lines in the output file.
-Since many lines doesn't contain semicolon in it,the output file from the shell script has a lot of blank lines.
+Since many lines don't contain semicolon in it,the output file from the shell script has a lot of blank lines.
