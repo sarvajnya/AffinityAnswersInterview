@@ -1,0 +1,13 @@
+test_case_0 (__main__.DynamicTestCase) ... ok
+test_case_1 (__main__.DynamicTestCase) ... ok
+test_case_2 (__main__.DynamicTestCase) ... ok
+test_case_3 (__main__.DynamicTestCase) ... ok
+test_case_4 (__main__.DynamicTestCase) ... ok
+test_case_5 (__main__.DynamicTestCase) ... ok
+test_case_6 (__main__.DynamicTestCase) ... ok
+test_case_7 (__main__.DynamicTestCase) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 11.335s
+
+OK

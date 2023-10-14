@@ -1,0 +1,8 @@
+5353, Tata Nagar, Patna, 563378 | false
+9090, Sivan Chetty Gardens, Bangalore, 560042 | true
+2nd Phase, 374/B, 80 Feet Rd, Mysore Bank Colony, Banashankari 3rd Stage, Srinivasa Nagar, Bengaluru, Karnataka 560050 | true
+2nd Phase, 374/B, 80 Feet Rd, Bank Colony, Banashankari 3rd Stage, Srinivasa Nagar, Bengaluru, Karnataka 560050 | true
+374/B, 80 Feet Rd, State Bank Colony, Banashankari 3rd Stage, Srinivasa Nagar, Bangalore, 560050 | true
+2nd Phase, 374/B, 80 Feet Rd, Mysore Bank Colony, Banashankari 3rd Stage, Srinivasa Nagar, Bengaluru, Karnataka 560095 | false
+Colony, Bengaluru, Karnataka 560050 | false
+Bijapur, Karnataka | false
